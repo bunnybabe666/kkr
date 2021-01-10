@@ -1,0 +1,139 @@
+
+  .color
+  {
+      color: rgb(159, 230, 230);
+  }
+ 
+  p{
+      text-align: center;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  .nev
+  {
+      font-size: 30px;
+  }
+  
+ .cimsor
+ {
+     font-size: 20px;
+ }
+  
+  .kartya {
+    width: 400px;
+    max-width: calc(80vw - 14px);
+    border-radius: 4px;
+    align-self: center;
+  }
+  
+  body {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: url('https://i.imgur.com/h7jbTL0.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .fej, .linkek {
+    text-align: center;
+  }
+  
+  .fej, .tartalom {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .tartalom
+   {
+   border-top: 1px solid rgba(133, 7, 7, 0.589);
+   border-top-style: ridge;
+  }
+  
+  .fej{
+    margin-bottom: 10%;
+    text-align: center;
+  }
+
+  .rolam
+  {
+    font-size: 90%;
+    text-align: center;
+  }
+  
+  .tartalom {
+    padding: 5% 10%;
+  }
+  
+
+  
+  .prof-kep {
+    margin-top: -60px;
+    
+  }
+  
+  img {
+    width: 100px;
+  height: 100px;
+  ruby-align: left;
+  padding: 1px;
+  
+    
+    
+  }
+  
+  img:hover {
+    filter: grayscale(20%);
+    transform: scale(1.1);
+  }
+  
+  .kartya {
+    background-color: rgba(255, 238, 181, 0.685);
+    border-radius: 5px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    
+  }
+  
+  
+  
+  ul {
+    list-style-type: none;
+    
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .ize{
+    font-size: 70%;
+  }
+
+  a:link
+  {
+    color: rgb(78, 51, 0);
+    
+  }
+  a:visited
+  {
+    color: rgb(70, 45, 0);
+  }
+  a:hover
+  {
+    color: rgb(116, 77, 6);
+  }
+  a:active
+  {
+    color: rgb(179, 126, 28);
+  }
+  .jaj
+  {
+    font-size: 120%;
+  }
